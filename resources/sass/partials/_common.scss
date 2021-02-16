@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-inline {
+    list-style: none;
+
+    li {
+        display: inline-block;
+        padding: 20px 10px;
+        margin: 0px 5px;
+
+        &.active {
+            background-color: $aColor;
+        }
+        &:hover {
+            background-color: $aColor;
+        }
+
+        a {
+            color: black;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
